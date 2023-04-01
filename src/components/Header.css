@@ -1,0 +1,44 @@
+.container {
+  width: 90rem;
+  height: 363px;
+  background: url("../images/bg-header-desktop.png");
+  mix-blend-mode: color;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 135px;
+}
+.appHeader {
+  margin-top: 56px;
+}
+.appParagraph {
+  color: #9eabb2;
+}
+.headerButtons {
+  display: flex;
+  margin-top: 48px;
+}
+.downloadButtonIos {
+  width: 227px;
+  height: 56px;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  color: white;
+  margin-right: 16px;
+  border: none;
+}
+.downloadButtonMac {
+  width: 227px;
+  height: 56px;
+  background: #6174ff;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  color: white;
+  border: none;
+}

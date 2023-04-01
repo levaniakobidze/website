@@ -1,0 +1,78 @@
+.macImgInfo {
+  margin-top: 80px;
+  display: flex;
+}
+
+.macImgInfoInner {
+  width: 350px;
+  margin-left: 110px;
+  margin-top: 70px;
+}
+
+.macImgInfoParag {
+  color: #9eabb2;
+}
+.iosInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.devices {
+  margin-top: 111px;
+}
+.componentsRow {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.component {
+  width: 350px;
+  margin-left: 30px;
+}
+p {
+  color: #9eabb2;
+}
+.imagesRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 162px;
+}
+.icons {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 161px;
+}
+.downloadButtons {
+  margin-top: 48px;
+}
+.downloadIos {
+  width: 227px;
+  height: 56px;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  color: white;
+  margin-right: 16px;
+  border: none;
+}
+.downloadMac {
+  width: 227px;
+  height: 56px;
+  background: #6174ff;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  color: white;
+  border: none;
+}
