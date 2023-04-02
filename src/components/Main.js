@@ -5,9 +5,9 @@ import devices from "../images/image-devices.png";
 import blacklist from "../images/icon-blacklist.svg";
 import text from "../images/icon-text.svg";
 import preview from "../images/icon-preview.svg";
-import google from "../images/logo-google.png";
+import g from "../images/logo-google.png";
 import ibm from "../images/logo-ibm.png";
-import microsoft from "../images/logo-microsoft.png";
+import m from "../images/logo-microsoft.png";
 import hp from "../images/logo-hp.png";
 import vector from "../images/logo-vector-graphics.png";
 const Main = () => {
@@ -75,9 +75,9 @@ const Main = () => {
         </div>
       </div>
       <div className="imagesRow">
-        <img className="icons" src={google} alt="" />
+        <img className="icons" src={g} alt="" />
         <img className="icons" src={ibm} alt="" />
-        <img className="icons" src={microsoft} alt="" />
+        <img className="icons" src={m} alt="" />
         <img className="icons" src={hp} alt="" />
         <img className="icons" src={vector} alt="" />
       </div>

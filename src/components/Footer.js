@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../images/logo.svg";
-import facebook from "../images/icon-facebook.svg";
-import twitter from "../images/icon-twitter.svg";
-import instagram from "../images/icon-instagram.svg";
+import f from "../images/icon-facebook.svg";
+import t from "../images/icon-twitter.svg";
+import i from "../images/icon-instagram.svg";
 const Footer = () => {
   return (
     <div className="footerContainer">
@@ -22,9 +22,9 @@ const Footer = () => {
         <span>Install Guide</span>
       </div>
       <div className="socialLogos">
-        <img src={facebook} alt="" />
-        <img src={twitter} alt="" />
-        <img src={instagram} alt="" />
+        <img src={f} alt="" />
+        <img src={t} alt="" />
+        <img src={i} alt="" />
       </div>
     </div>
   );
