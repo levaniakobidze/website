@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <div className="mainContainer">
       <div className="macImgInfo">
-        <img src={mac} />
+        <img src={mac} alt="" />
         <div className="macImgInner">
           <div className="macImgInfoInner">
             <h2 className="macImgInfoHeader">Quick Search</h2>
@@ -44,7 +44,7 @@ const Main = () => {
           Whether you’re on the go, or at your computer, you can access all your
           Clipboard snippets in a few simple clicks.
         </p>
-        <img className="devices" src={devices} />
+        <img className="devices" src={devices} alt="" />
         <h1 className="macImgInfoHeader">Supercharge your workflow</h1>
         <p className="macImgInfoParag">
           We’ve got the tools to boost your productivity.
@@ -52,7 +52,7 @@ const Main = () => {
       </div>
       <div className="componentsRow">
         <div className="component">
-          <img className="" src={blacklist} />
+          <img className="" src={blacklist} alt="" />
           <h5>Create blacklists</h5>
           <p>
             Ensure sensitive information never makes its way to your clipboard
@@ -60,14 +60,14 @@ const Main = () => {
           </p>
         </div>
         <div className="component">
-          <img className="" src={text} />
+          <img className="" src={text} alt="" />
           <h5>Plain text snippets</h5>
           <p>
             Remove unwanted formatting from copied text for a consistent look.
           </p>
         </div>
         <div className="component">
-          <img className="" src={preview} />
+          <img className="" src={preview} alt="" />
           <h5>Sneak preview</h5>
           <p>
             Quick preview of all snippets on your Clipboard for easy access.
@@ -75,11 +75,11 @@ const Main = () => {
         </div>
       </div>
       <div className="imagesRow">
-        <img className="icons" src={google} />
-        <img className="icons" src={ibm} />
-        <img className="icons" src={microsoft} />
-        <img className="icons" src={hp} />
-        <img className="icons" src={vector} />
+        <img className="icons" src={google} alt="" />
+        <img className="icons" src={ibm} alt="" />
+        <img className="icons" src={microsoft} alt="" />
+        <img className="icons" src={hp} alt="" />
+        <img className="icons" src={vector} alt="" />
       </div>
       <div className="download">
         <h1>Clipboard for iOS and Mac OS</h1>
