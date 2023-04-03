@@ -1,12 +1,11 @@
 import React from "react";
 import headImg from "../images/logo.svg";
 import "./Header.css";
-import Main from "./Main";
 const Header = () => {
   return (
     <div className="header">
       {" "}
-      <img src={headImg} />
+      <img src={headImg} alt="sads" />
       <h1 className="appHeader">A history of everything you copy</h1>
       <p className="appParagraph">
         Clipboard allows you to track and organize everything you copy.
