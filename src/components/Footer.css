@@ -19,6 +19,7 @@
   .footerContainer {
     flex-direction: column;
     align-items: center;
+    width: 375px;
   }
   .footerLogo {
     margin-bottom: 40px;

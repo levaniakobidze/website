@@ -1,9 +1,6 @@
 @media (max-width: 375px) {
-  .container {
+  .header {
     width: 375px;
-
-    background: url("../images/bg-header-desktop.png");
-    mix-blend-mode: color;
   }
   .appHeader {
     width: 311px;
@@ -20,12 +17,7 @@
     margin-bottom: 24px;
   }
 }
-.container {
-  width: 90rem;
-  height: 363px;
-  background: url("../images/bg-header-desktop.png");
-  mix-blend-mode: color;
-}
+
 .header {
   display: flex;
   flex-direction: column;
