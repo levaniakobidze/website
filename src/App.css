@@ -5,6 +5,7 @@
 }
 .container {
   background: url("./images/bg-header-desktop.png");
+  background-repeat: no-repeat;
   width: 90rem;
   mix-blend-mode: color;
 }
@@ -12,6 +13,7 @@
 @media (max-width: 375px) {
   .container {
     background: url("./images/bg-header-mobile.png");
+    background-repeat: no-repeat;
     width: 23rem;
     height: auto;
     mix-blend-mode: color;
