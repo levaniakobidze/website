@@ -1,3 +1,48 @@
+@media (max-width: 375px) {
+  .macImgInfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .macImg {
+    width: 312px;
+    height: 238px;
+  }
+  .macImgInfoHeader {
+    width: 311px;
+  }
+  .macImgInfoParag {
+    width: 311px;
+  }
+  .devices {
+    width: 271px;
+    height: 180px;
+  }
+  .componentsRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagesRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons {
+    margin-top: 27px;
+    margin-bottom: 27px;
+  }
+  .downloadButtons {
+    display: flex;
+    flex-direction: column;
+  }
+  .downloadIos {
+    margin-bottom: 24px;
+  }
+  .download {
+    width: 311px;
+    margin-left: 40%;
+  }
+}
+
 .macImgInfo {
   margin-top: 80px;
   display: flex;

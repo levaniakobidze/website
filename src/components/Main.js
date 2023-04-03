@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <div className="mainContainer">
       <div className="macImgInfo">
-        <img src={mac} alt="" />
+        <img className="macImg" src={mac} alt="" />
         <div className="macImgInner">
           <div className="macImgInfoInner">
             <h2 className="macImgInfoHeader">Quick Search</h2>
